@@ -33,7 +33,7 @@ class Pdo implements
     /**
      * @var \PDO
      */
-    protected $db;
+    public $db;
 
     /**
      * @var array

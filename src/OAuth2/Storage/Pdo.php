@@ -29,7 +29,7 @@ class Pdo implements
     UserClaimsInterface,
     OpenIDAuthorizationCodeInterface
 {
-    protected $db;
+    public $db;
     protected $config;
 
     public function __construct($connection, $config = array())
